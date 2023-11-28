@@ -1,5 +1,6 @@
 import React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Header from './pages/header';
 
 const theme = createTheme({
   palette: {
@@ -19,12 +20,15 @@ const theme = createTheme({
       main: '#C7D6D5',
     },
   },
+  typography: {
+    color: 'white',
+  },
 });
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <></>
+      <Header />
     </ThemeProvider>
   );
 }
