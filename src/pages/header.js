@@ -20,7 +20,7 @@ const Header = () => {
     >
       <Typography
         variant='h2'
-        sx={{ width: '50%', color: 'white', fontFamily: 'Judson' }}
+        sx={{ width: '35%', color: 'white', fontFamily: 'Judson' }}
       >
         Comprehensive strategies for the digitization of your small business.
         Advancing your online presence done easy. I <span />
